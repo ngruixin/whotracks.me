@@ -1,0 +1,646 @@
+<!doctype html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Tracker | Atlas</title>
+    <meta name="description" content="Tracker profile of Atlas. Reach, domains it operates under, tracking technology, web presence by type of site and more.">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="referrer" content="same-origin">
+
+    
+    <!-- OG params for sharable content -->
+    <meta property="og:title" content="Tracker | Atlas">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://whotracks.me/trackers/atlas.html">
+    <meta property="og:description" content="Tracker profile of Atlas. Reach, domains it operates under, tracking technology, web presence by type of site and more.">
+
+
+    <!-- Stylesheets -->
+    <link rel="icon" href="../static/img/favicon-2.ico">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../static/css/custom.css">
+    <link rel="alternate" type="application/rss+xml" title="WhoTracks.Me Blog" href="https://whotracks.me/blog/feed.xml" />
+
+    <!--add this block to templates that need extra styling-->
+    
+    <link rel="stylesheet" href="../static/css/trackers/profile.css">
+
+
+    <!-- jQuery -->
+    <script src="../static/js/jquery.min.js"></script>
+    <!-- Plotly JS -->
+    <script src="../static/js/plotly-v1.29.3.min.js"></script>
+    <!-- For relative path resolution -->
+    <script>
+        var pathToRoot = ".."
+    </script>
+</head>
+
+<body>
+<nav class="navbar navbar-blue" role="navigation">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-2">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="..">
+                        <img class="logo" alt="Who Tracks Me" src="../static/img/logo-white.svg">
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-10 col-sm-0">
+                <!--Collapsed under menu in mobile-->
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul id="imaginary_container">
+                        <div class="input-group stylish-input-group">
+                            <input id="search-bar" class="form-control" type="text" placeholder="Search website or tracker">
+                        </div>
+                    </ul>
+
+                    <!--Site links-->
+                    <ul class="nav navbar-nav navbar-right">
+                        <li  class="active" >
+                            <a class="nav-button" href="../trackers.html">TRACKERS</a>
+                        </li>
+                        <li >
+                            <a class="nav-button" href="../websites.html">WEBSITES</a>
+                        </li>
+                        <li >
+                            <a class="nav-button" href="../blog.html">BLOG</a>
+                        </li>
+                        <li >
+                            <a class="nav-button" href="../explorer.html">EXPLORER</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</nav>
+
+
+    
+
+    
+    <div class="breadcrumb-bar" style="border-bottom: solid 1px #333;">
+    
+        <div class="container">
+                <ul class="breadcrumb">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/trackers.html">Trackers</a></li>
+                    
+                        <li>Atlas</li>
+                    
+                </ul>
+        </div>
+    </div>
+    
+
+
+
+
+<script type="text/javascript">
+$(document).ready(function() {
+    var operates_under_selector = '#operates-under p',
+        $operates_under_list = $(operates_under_selector),
+        operates_list_size = $operates_under_list.length,
+        items_to_show = 2,
+        $expand = $('.operates-expand'),
+        $collapse = $('.operates-collapse');
+    $(operates_under_selector + ':lt(' +items_to_show+')').show();
+    $expand.click(function(e) {
+        items_to_show = operates_list_size;
+        $(operates_under_selector + ':lt('+items_to_show+')').show();
+        if(items_to_show === operates_list_size) {
+            $collapse.removeClass('hidden');
+            $expand.addClass('hidden');
+        }
+    });
+
+    $collapse.click(function() {
+        $(this).addClass('hidden');
+        $expand.removeClass('hidden');
+        $operates_under_list.not(':lt(2)').hide();
+    });
+
+});
+</script>
+<div id="tracker-page" class="overview-page">
+    <div id="overview-header">
+        <div class="container">
+            <div class="row overview-info inverse">
+                <div class="col-md-6 col-sm-6">
+  <h1>Atlas</h1>
+  
+    <p class="header">Owned by Facebook</p>
+  
+  
+    <p id="domain">
+        <a target="_blank" rel="noreferrer"  href="https://atlassolutions.com">https://atlassolutions.com</a>
+    </p>
+  
+</div>
+
+<div class="col-md-6 col-sm-6">
+  <div class="overview-info-right">
+    <div class="row">
+      <div class="col-md-6 col-sm-6">
+        <p class="header">TRACKER RANK</p>
+        <p class="tracker-rank">
+          <span class="emphasis">248</span>
+          /1138
+        </p>
+        <p class="description">Relatively prevalent</p>
+      </div>
+
+      <div class="col-md-6 col-sm-6">
+        
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<div class="overview-header-box">
+  <div class="row">
+
+
+    <!-- LEFT COLUMN -->
+    <div class="col-md-6 col-sm-6">
+        <h3>TRACKER REACH</h3>
+        <div class="trend">
+          <img class="trackers-icon" src="../static/img/page.svg">
+          <span class="percentage">
+            0.3%
+            <span class="graph"><div id="587301a7-b1e2-426f-a63a-2c0aab11b428" style="height: 100px; width: 153px;" class="plotly-graph-div"></div><script type="text/javascript">window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("587301a7-b1e2-426f-a63a-2c0aab11b428", [{"hoverinfo": "text", "line": {"color": "#A069AB", "dash": "solid", "width": 3}, "marker": {"size": 10}, "mode": "lines", "opacity": 1, "text": ["2.99% on May 17", "2.90% on Jun 17", "2.56% on Jul 17", "2.68% on Aug 17", "2.76% on Sep 17", "2.90% on Oct 17", "2.95% on Nov 17", "2.45% on Dec 17", "2.02% on Jan 18", "1.10% on Feb 18", "0.84% on Mar 18", "0.73% on Apr 18", "0.91% on May 18", "0.63% on Jun 18", "0.58% on Jul 18", "0.39% on Aug 18", "0.29% on Sep 18", "0.33% on Oct 18", "0.39% on Nov 18", "0.39% on Dec 18", "0.31% on Jan 19", "0.26% on Feb 19"], "x": ["2017-05-01", "2017-06-01", "2017-07-01", "2017-08-01", "2017-09-01", "2017-10-01", "2017-11-01", "2017-12-01", "2018-01-01", "2018-02-01", "2018-03-01", "2018-04-01", "2018-05-01", "2018-06-01", "2018-07-01", "2018-08-01", "2018-09-01", "2018-10-01", "2018-11-01", "2018-12-01", "2019-01-01", "2019-02-01"], "y": [2.9940573099312457, 2.896708407862211, 2.563230360609984, 2.6840096827971993, 2.7637528636274253, 2.8951502247074523, 2.9492451132628226, 2.4510588963717392, 2.0232831010249552, 1.0993931665499854, 0.8419552475881651, 0.7347574007305777, 0.9119821703408106, 0.6337453259403729, 0.5784014190210515, 0.3901874825794116, 0.28989004679447195, 0.32782031860161115, 0.3851212251064578, 0.39476921906146256, 0.3122129987379107, 0.26095683081262466], "type": "scatter", "uid": "d740268c-4749-11e9-8206-42010a1405dd"}, {"hoverinfo": "text", "line": {"color": "#A069AB", "dash": "solid", "width": 3}, "marker": {"size": 10}, "mode": "markers", "opacity": 1, "text": ["0.26% on Feb 19"], "x": ["2019-02-01"], "y": [0.26095683081262466], "type": "scatter", "uid": "d7402998-4749-11e9-8206-42010a1405dd"}], {"height": 100, "hoverlabel": {"bgcolor": "#1A1A25", "bordercolor": "rgba(0,0, 0, 0)", "font": {"color": "#BFCBD6", "family": "monospace", "size": 13}}, "margin": {"b": 40, "l": 10, "pad": 5, "r": 10, "t": 30}, "showlegend": false, "width": 153, "xaxis": {"autorange": true, "hoverformat": "%b %y", "showgrid": false, "showline": false, "showticklabels": false, "ticks": "", "zeroline": false}, "yaxis": {"range": [0.2348611477313622, 3.143760175427808], "showgrid": false, "showline": false, "showticklabels": false, "ticks": "", "zeroline": false}}, {"showLink": false, "linkText": "Export to plot.ly", "displayModeBar": false})</script></span>
+          </span>
+
+          <p class="description">of web traffic is tracked by Atlas</p>
+      </div>
+      <div class="trend">
+          <img class="trackers-icon" src="../static/img/domain.svg">
+          <span class="percentage">
+            268
+            <span class="graph"><div id="0f564238-e689-40f0-b950-d55286f95f8e" style="height: 100px; width: 153px;" class="plotly-graph-div"></div><script type="text/javascript">window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.newPlot("0f564238-e689-40f0-b950-d55286f95f8e", [{"hoverinfo": "text", "line": {"color": "#A069AB", "dash": "solid", "width": 3}, "marker": {"size": 10}, "mode": "lines", "opacity": 1, "text": ["169.00% on Sep 18", "264.00% on Oct 18", "301.00% on Nov 18", "319.00% on Dec 18", "303.00% on Jan 19", "268.00% on Feb 19"], "x": ["2018-09-01", "2018-10-01", "2018-11-01", "2018-12-01", "2019-01-01", "2019-02-01"], "y": [169, 264, 301, 319, 303, 268], "type": "scatter", "uid": "d7748260-4749-11e9-8206-42010a1405dd"}, {"hoverinfo": "text", "line": {"color": "#A069AB", "dash": "solid", "width": 3}, "marker": {"size": 10}, "mode": "markers", "opacity": 1, "text": ["268.00% on Feb 19"], "x": ["2019-02-01"], "y": [268], "type": "scatter", "uid": "d774854e-4749-11e9-8206-42010a1405dd"}], {"height": 100, "hoverlabel": {"bgcolor": "#1A1A25", "bordercolor": "rgba(0,0, 0, 0)", "font": {"color": "#BFCBD6", "family": "monospace", "size": 13}}, "margin": {"b": 40, "l": 10, "pad": 5, "r": 10, "t": 30}, "showlegend": false, "width": 153, "xaxis": {"autorange": true, "hoverformat": "%b %y", "showgrid": false, "showline": false, "showticklabels": false, "ticks": "", "zeroline": false}, "yaxis": {"range": [152.1, 334.95], "showgrid": false, "showline": false, "showticklabels": false, "ticks": "", "zeroline": false}}, {"showLink": false, "linkText": "Export to plot.ly", "displayModeBar": false})</script></span>
+          </span>
+          <p class="description">of the top 10,000 sites seen loading the Atlas tracker</p>
+      </div>
+      <p class="subtitle">
+        
+          Data from May 2017 to February 2019.
+        
+      </p>
+    </div>
+
+
+    <!-- Right COLUMN -->
+    <div class="col-md-6 col-sm-6">
+          <h3>SEEN ON THESE TYPES OF WEBSITES</h3>
+          
+          
+            <div class="clearfix">
+              <span class="progress-presence">41% </span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar"  aria-valuenow="51.38888888888889" aria-valuemin="0" aria-valuemax="100" style="width: 51.38888888888889%">
+                News and Portals
+                </div>
+              </div>
+            </div>
+            
+          
+          
+            <div class="clearfix">
+              <span class="progress-presence">22% </span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar"  aria-valuenow="27.77777777777778" aria-valuemin="0" aria-valuemax="100" style="width: 27.77777777777778%">
+                Business
+                </div>
+              </div>
+            </div>
+            
+          
+          
+            <div class="clearfix">
+              <span class="progress-presence">12% </span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar"  aria-valuenow="15.277777777777777" aria-valuemin="0" aria-valuemax="100" style="width: 15.277777777777777%">
+                Entertainment
+                </div>
+              </div>
+            </div>
+            
+          
+          
+            <div class="clearfix">
+              <span class="progress-presence">12% </span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar"  aria-valuenow="15.277777777777777" aria-valuemin="0" aria-valuemax="100" style="width: 15.277777777777777%">
+                Reference
+                </div>
+              </div>
+            </div>
+            
+          
+          
+            <div class="clearfix">
+              <span class="progress-presence">6% </span>
+              <div class="progress">
+                <div class="progress-bar" role="progressbar"  aria-valuenow="8.333333333333334" aria-valuemin="0" aria-valuemax="100" style="width: 8.333333333333334%">
+                E-Commerce
+                </div>
+              </div>
+            </div>
+            
+          
+
+          <h3>TRACKING TYPE</h3>
+          <div class="row tracking-methods">
+            
+              <div  class="col-md-8" >
+                <img src="../static/img/cookies.svg">
+<p class="tracking-method">
+  <span class="highlight">COOKIES</span> are files placed by the website, stored in the browser
+  that is used to identify you to the website. <div>
+    <a class="learn-more" href="../blog/cookies.html">
+      Learn more
+      <i class="fa fa-angle-right" aria-hidden="true"></i>
+    </a>
+  </div>
+</p>
+              </div>
+            
+
+            
+            
+          </div>
+    </div>
+  </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="similar-trackers">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="row tracker-category">
+                        <div class="col-md-11">
+                        <h4>TRACKER CATEGORY</h4>
+                        
+                            <span class="cat-item">
+                                <i class="fa fa-circle" style="color: #BF90D2" aria-hidden="true"></i>
+                                Advertising
+                            </span>
+                            <p class="tracker-desc">Provides advertising or advertising-related services such as data collection, behavioral analysis or retargeting.</p>
+                        
+                        <p>
+                            <i class="fa fa-info-circle"></i>
+                            <a href="../blog/tracker_categories.html">Learn about our tracker categories</a>
+                        </p>
+                        <p>
+                            <i class="fa fa-info-circle"></i>
+                            <a href="../blog/what_is_a_tracker.html">What is a tracker?</a>
+                        </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6  col-sm-6 col-xs-12">
+                    <h4>SIMILAR TRACKERS</h4>
+                    <ul>
+                        
+                            <li>
+                                <a href="../trackers/google.html" class="entity-name">
+                                Google
+                                </a>
+                                
+                                    <span>
+                                        Google
+                                    </span>
+                                
+                            </li>
+                        
+                            <li>
+                                <a href="../trackers/facebook.html" class="entity-name">
+                                Facebook
+                                </a>
+                                
+                                    <span>
+                                        Facebook
+                                    </span>
+                                
+                            </li>
+                        
+                            <li>
+                                <a href="../trackers/doubleclick.html" class="entity-name">
+                                DoubleClick
+                                </a>
+                                
+                                    <span>
+                                        Google
+                                    </span>
+                                
+                            </li>
+                        
+                            <li>
+                                <a href="../trackers/google_adservices.html" class="entity-name">
+                                Google AdServices
+                                </a>
+                                
+                                    <span>
+                                        Google
+                                    </span>
+                                
+                            </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="tag-cloud">
+        <div class="container">
+            <div class="row">
+                <h2 class="title">Presence on top sites</h2>
+                
+                    <script src="../static/js/d3.min.js"></script>
+<script src="../static/js/d3.layout.cloud.js"></script>
+
+<script>
+        function sanitiseCategory(cat) {
+            return cat.replace(/\s/g, '_').toLowerCase();
+        }
+
+        function drawTagCloud(cat, siteList) {
+            var container = document.getElementById('tag_cloud_container');
+            var width = Math.max(container.offsetWidth, 300);
+            var height = Math.max(container.offsetHeight - 5, 400);
+            var containerSvg = document.getElementById('tag_cloud');
+            containerSvg.setAttribute('width', width);
+            containerSvg.setAttribute('height', height);
+
+            var sites = JSON.parse(siteList);
+            var minSize = 20;
+            var maxSize = 100;
+            var scaleFactor = (maxSize - minSize) / 0.3;
+
+            var layout = d3.layout.cloud()
+                .size([width, height])
+                .words(sites.map(function (d) {
+                    return {
+                        text: d.site.replace('www.', ''),
+                        size: Math.min(maxSize, minSize + d.frequency * scaleFactor),
+                        rotate: 0,
+                        opacity: 0.5 + (d.site_freq || 0. * 0.7),
+                        colour: d.site_cat,
+                        href: d.url,
+                        category: d.category,
+                    };
+                }))
+                .padding(3)
+                .rotate(function (d) { return 0 })
+                .font("Impact")
+                .fontSize(function (d) { return d.size; })
+                .on("end", draw);
+
+            layout.start();
+
+            function draw(words) {
+                d3.select('#tag_cloud')
+                    .append("g")
+                    .attr("transform", "translate(" + layout.size()[0] / 2 + "," + layout.size()[1] / 2 + ")")
+                    .selectAll("text")
+                    .data(words)
+                    .enter().append("text")
+                    .style("font-size", function (d) { return d.size + "px"; })
+                    .style("font-family", "Helvetica")
+                    .style("fill", function (d) { return d.colour })
+                    .attr("class", function (d) { return "category-" + sanitiseCategory(d.category) })
+                    .attr("opacity", function (d) { return d.opacity })
+                    .attr("text-anchor", "middle")
+                    .attr("transform", function (d) {
+                        return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
+                    })
+                    .insert('a')
+                    .attr("href", function (d) { return d.href })
+                    .text(function (d) { return d.text; });
+            }
+        }
+
+        var activeCategories = [];
+
+        function toggleTagCloudCategory(cat) {
+            if (cat === "all") {
+                // unselect buttons
+                activeCategories.forEach(function(otherCat) {
+                    document.getElementById('button-' + otherCat).classList.remove('active');
+                });
+                document.getElementById('button-all').classList.add('active');
+                // make everything visible
+                d3.selectAll("#tag_cloud text").style("visibility", "visible");
+                activeCategories = [];
+            } else {
+                document.getElementById('button-all').classList.remove('active');
+                document.getElementById('button-' + cat).classList.add('active');
+
+                if (activeCategories.length === 0) {
+                    // hide everything
+                    d3.selectAll("#tag_cloud text").style("visibility", "hidden");
+                }
+                // make just elements from specified categories visible
+                d3.selectAll("#tag_cloud text.category-" + sanitiseCategory(cat)).style("visibility", "visible");
+                activeCategories.push(cat);
+            }
+        }
+    </script>
+
+
+<ul class="nav nav-tabs">
+    <li class="active" id="button-all">
+        <a href="#all" onclick="toggleTagCloudCategory('all')">Show all</a>
+    </li>
+    
+        
+            <li id="button-Banking">
+                <a href="#Banking" onclick="toggleTagCloudCategory('Banking')">Banking</a>
+            </li>
+        
+    
+        
+            <li id="button-Business">
+                <a href="#Business" onclick="toggleTagCloudCategory('Business')">Business</a>
+            </li>
+        
+    
+        
+            <li id="button-E-Commerce">
+                <a href="#E-Commerce" onclick="toggleTagCloudCategory('E-Commerce')">E-commerce</a>
+            </li>
+        
+    
+        
+            <li id="button-Entertainment">
+                <a href="#Entertainment" onclick="toggleTagCloudCategory('Entertainment')">Entertainment</a>
+            </li>
+        
+    
+        
+            <li id="button-News and Portals">
+                <a href="#News and Portals" onclick="toggleTagCloudCategory('News and Portals')">News and portals</a>
+            </li>
+        
+    
+        
+            <li id="button-Recreation">
+                <a href="#Recreation" onclick="toggleTagCloudCategory('Recreation')">Recreation</a>
+            </li>
+        
+    
+        
+            <li id="button-Reference">
+                <a href="#Reference" onclick="toggleTagCloudCategory('Reference')">Reference</a>
+            </li>
+        
+    
+</ul>
+
+<div class="tab-content">
+    <div id="tag_cloud_container" class="tab-pane fade in active">
+        <svg id="tag_cloud" height=400></svg>
+        <script>drawTagCloud('all', '[{"category": "Entertainment", "frequency": 0.4143299050728003, "site": "facebook.com", "site_cat": "#B8B8B8", "site_freq": 0.039886071583538234, "url": "../websites/facebook.com.html"}, {"category": "News and Portals", "frequency": 0.04032672388207589, "site": "spiegel.de", "site_cat": "#000", "site_freq": 0.09147152210659654, "url": "../websites/spiegel.de.html"}, {"category": "E-Commerce", "frequency": 0.03356430507995045, "site": "laredoute.fr", "site_cat": "#71C671", "site_freq": 0.7062829126566188, "url": "../websites/laredoute.fr.html"}, {"category": "News and Portals", "frequency": 0.026224328496620795, "site": "t-online.de", "site_cat": "#000", "site_freq": 0.07359300619949076, "url": "../websites/t-online.de.html"}, {"category": "News and Portals", "frequency": 0.02213211279820581, "site": "nine.com.au", "site_cat": "#000", "site_freq": 0.7856462994365735, "url": "../websites/nine.com.au.html"}, {"category": "E-Commerce", "frequency": 0.017511034158197207, "site": "zulily.com", "site_cat": "#71C671", "site_freq": 0.7923191700018128, "url": "../websites/zulily.com.html"}, {"category": "Reference", "frequency": 0.015399897124446444, "site": "golem.de", "site_cat": "#E0EEEE", "site_freq": 0.2596009975062344, "url": "../websites/golem.de.html"}, {"category": "News and Portals", "frequency": 0.012291440464240576, "site": "welt.de", "site_cat": "#000", "site_freq": 0.1029481232527704, "url": "../websites/welt.de.html"}, {"category": "Business", "frequency": 0.012021769675257813, "site": "slack.com", "site_cat": "blue", "site_freq": 0.2281324568380667, "url": "../websites/slack.com.html"}, {"category": "Business", "frequency": 0.01015379864437265, "site": "xbox.com", "site_cat": "blue", "site_freq": 0.5089914720059325, "url": "../websites/xbox.com.html"}, {"category": "E-Commerce", "frequency": 0.00940303516784464, "site": "wayfair.com", "site_cat": "#71C671", "site_freq": 0.38182842125023464, "url": "../websites/wayfair.com.html"}, {"category": "Recreation", "frequency": 0.009393789312222374, "site": "klm.com", "site_cat": "#B9D3EE", "site_freq": 0.6400268777691451, "url": "../websites/klm.com.html"}, {"category": "Business", "frequency": 0.008926257212923117, "site": "mgen.fr", "site_cat": "blue", "site_freq": 0.8714608093876937, "url": "../websites/mgen.fr.html"}, {"category": "News and Portals", "frequency": 0.00565384071301573, "site": "web.de", "site_cat": "#000", "site_freq": 0.020398428170179266, "url": "../websites/web.de.html"}, {"category": "Banking", "frequency": 0.00514624323935332, "site": "usaa.com", "site_cat": "#FFE4C4", "site_freq": 0.08550579921652969, "url": "../websites/usaa.com.html"}, {"category": "News and Portals", "frequency": 0.004820172731074735, "site": "tvspielfilm.de", "site_cat": "#000", "site_freq": 0.18054417214032575, "url": "../websites/tvspielfilm.de.html"}, {"category": "News and Portals", "frequency": 0.004764081206966321, "site": "gmx.net", "site_cat": "#000", "site_freq": 0.01774566460716852, "url": "../websites/gmx.net.html"}, {"category": "Business", "frequency": 0.004618304883321925, "site": "decathlon.fr", "site_cat": "blue", "site_freq": 0.14419190947230667, "url": "../websites/decathlon.fr.html"}, {"category": "Entertainment", "frequency": 0.004571459214835777, "site": "tweakers.net", "site_cat": "#B8B8B8", "site_freq": 0.02870634682561954, "url": "../websites/tweakers.net.html"}, {"category": "Business", "frequency": 0.004085127209104579, "site": "marketwatch.com", "site_cat": "blue", "site_freq": 0.05603940303555574, "url": "../websites/marketwatch.com.html"}, {"category": "Business", "frequency": 0.004053074909614056, "site": "airbnb.com", "site_cat": "blue", "site_freq": 0.03490986506969496, "url": "../websites/airbnb.com.html"}, {"category": "News and Portals", "frequency": 0.003924865711651966, "site": "mopo.de", "site_cat": "#000", "site_freq": 0.1975122912046156, "url": "../websites/mopo.de.html"}, {"category": "News and Portals", "frequency": 0.003739332208831826, "site": "motor-talk.de", "site_cat": "#000", "site_freq": 0.1420011001486371, "url": "../websites/motor-talk.de.html"}, {"category": "Entertainment", "frequency": 0.0032126266335500663, "site": "betfair.com", "site_cat": "#B8B8B8", "site_freq": 0.09344185879737531, "url": "../websites/betfair.com.html"}, {"category": "News and Portals", "frequency": 0.003188279213744766, "site": "gamestar.de", "site_cat": "#000", "site_freq": 0.0824388183636552, "url": "../websites/gamestar.de.html"}, {"category": "Business", "frequency": 0.0027854681038013717, "site": "immobilienscout24.de", "site_cat": "blue", "site_freq": 0.018310038917442754, "url": "../websites/immobilienscout24.de.html"}, {"category": "News and Portals", "frequency": 0.002752183023561214, "site": "stern.de", "site_cat": "#000", "site_freq": 0.058739952376567164, "url": "../websites/stern.de.html"}, {"category": "Business", "frequency": 0.0025222694137541964, "site": "jcrew.com", "site_cat": "blue", "site_freq": 0.32464595977627037, "url": "../websites/jcrew.com.html"}, {"category": "News and Portals", "frequency": 0.0025120989725697035, "site": "wetter.com", "site_cat": "#000", "site_freq": 0.0548501059856667, "url": "../websites/wetter.com.html"}, {"category": "E-Commerce", "frequency": 0.0024748073548932306, "site": "jako-o.com", "site_cat": "#71C671", "site_freq": 0.4971212777812171, "url": "../websites/jako-o.com.html"}, {"category": "News and Portals", "frequency": 0.0024270371008448554, "site": "bild.de", "site_cat": "#000", "site_freq": 0.013223870471559023, "url": "../websites/bild.de.html"}, {"category": "News and Portals", "frequency": 0.0019311510443039829, "site": "autobild.de", "site_cat": "#000", "site_freq": 0.15877762010946686, "url": "../websites/autobild.de.html"}, {"category": "Business", "frequency": 0.001785374720659587, "site": "airbnb.fr", "site_cat": "blue", "site_freq": 0.031817957125673514, "url": "../websites/airbnb.fr.html"}, {"category": "Recreation", "frequency": 0.0017705813516639612, "site": "agoda.com", "site_cat": "#B9D3EE", "site_freq": 0.07202226484636504, "url": "../websites/agoda.com.html"}, {"category": "Reference", "frequency": 0.0017597945201046508, "site": "chefkoch.de", "site_cat": "#E0EEEE", "site_freq": 0.027046229632436528, "url": "../websites/chefkoch.de.html"}, {"category": "News and Portals", "frequency": 0.0017129488516185024, "site": "freenet.de", "site_cat": "#000", "site_freq": 0.03181891043990016, "url": "../websites/freenet.de.html"}, {"category": "Entertainment", "frequency": 0.0017083259238073695, "site": "radio.de", "site_cat": "#B8B8B8", "site_freq": 0.22817272465319227, "url": "../websites/radio.de.html"}, {"category": "Business", "frequency": 0.0017012374344969653, "site": "dominos.com", "site_cat": "blue", "site_freq": 0.11046406916011287, "url": "../websites/dominos.com.html"}, {"category": "News and Portals", "frequency": 0.001587821605530501, "site": "derwesten.de", "site_cat": "#000", "site_freq": 0.18103236234583084, "url": "../websites/derwesten.de.html"}, {"category": "News and Portals", "frequency": 0.0013770160973428335, "site": "sueddeutsche.de", "site_cat": "#000", "site_freq": 0.01512899260819363, "url": "../websites/sueddeutsche.de.html"}, {"category": "News and Portals", "frequency": 0.0012867149074320345, "site": "morgenpost.de", "site_cat": "#000", "site_freq": 0.15413866942331833, "url": "../websites/morgenpost.de.html"}, {"category": "News and Portals", "frequency": 0.0011884006426486047, "site": "sport1.de", "site_cat": "#000", "site_freq": 0.043018430095051095, "url": "../websites/sport1.de.html"}, {"category": "Recreation", "frequency": 0.0011175157495445646, "site": "airbnb.de", "site_cat": "#B9D3EE", "site_freq": 0.03392589820359281, "url": "../websites/airbnb.de.html"}, {"category": "News and Portals", "frequency": 0.0011008732094244856, "site": "sport.de", "site_cat": "#000", "site_freq": 0.1000139997200056, "url": "../websites/sport.de.html"}, {"category": "News and Portals", "frequency": 0.001085771645241451, "site": "n-tv.de", "site_cat": "#000", "site_freq": 0.011687428467165393, "url": "../websites/n-tv.de.html"}, {"category": "Business", "frequency": 0.000985300014146159, "site": "vodafone.de", "site_cat": "blue", "site_freq": 0.020367078849964006, "url": "../websites/vodafone.de.html"}, {"category": "Entertainment", "frequency": 0.0009550968857800898, "site": "battle.net", "site_cat": "#B8B8B8", "site_freq": 0.022649038566949505, "url": "../websites/battle.net.html"}, {"category": "Reference", "frequency": 0.00084044827606399, "site": "emirates.com", "site_cat": "#E0EEEE", "site_freq": 0.05412217679514151, "url": "../websites/emirates.com.html"}, {"category": "News and Portals", "frequency": 0.0007600093321502747, "site": "hamburg.de", "site_cat": "#000", "site_freq": 0.13234583802930286, "url": "../websites/hamburg.de.html"}, {"category": "Business", "frequency": 0.0007535372332146884, "site": "cvs.com", "site_cat": "blue", "site_freq": 0.05633900179731785, "url": "../websites/cvs.com.html"}, {"category": "News and Portals", "frequency": 0.0007504552813405997, "site": "gala.de", "site_cat": "#000", "site_freq": 0.09044311555175871, "url": "../websites/gala.de.html"}, {"category": "News and Portals", "frequency": 0.0007294980085967965, "site": "finanztreff.de", "site_cat": "#000", "site_freq": 0.037482778824684475, "url": "../websites/finanztreff.de.html"}, {"category": "Business", "frequency": 0.0006909736101706877, "site": "gap.com", "site_cat": "blue", "site_freq": 0.021064895286236413, "url": "../websites/gap.com.html"}, {"category": "Business", "frequency": 0.0006897408294210522, "site": "hardware.info", "site_cat": "blue", "site_freq": 0.05051348606252116, "url": "../websites/hardware.info.html"}, {"category": "Business", "frequency": 0.0006771048267372885, "site": "airbnb.co.uk", "site_cat": "blue", "site_freq": 0.030877123944176632, "url": "../websites/airbnb.co.uk.html"}, {"category": "E-Commerce", "frequency": 0.000664160628866116, "site": "kbb.com", "site_cat": "#71C671", "site_freq": 0.05142338988713103, "url": "../websites/kbb.com.html"}, {"category": "Entertainment", "frequency": 0.0006441279416845395, "site": "roleplayer.me", "site_cat": "#B8B8B8", "site_freq": 0.010096081850722909, "url": "../websites/roleplayer.me.html"}, {"category": "Business", "frequency": 0.0006373476475615442, "site": "citationmachine.net", "site_cat": "blue", "site_freq": 0.0323387752548946, "url": "../websites/citationmachine.net.html"}, {"category": "Reference", "frequency": 0.0006271772063770515, "site": "mtb-news.de", "site_cat": "#E0EEEE", "site_freq": 0.051791713325867864, "url": "../websites/mtb-news.de.html"}, {"category": "E-Commerce", "frequency": 0.0005892691983257604, "site": "overstock.com", "site_cat": "#71C671", "site_freq": 0.03163834328926249, "url": "../websites/overstock.com.html"}, {"category": "News and Portals", "frequency": 0.000571393877456046, "site": "express.de", "site_cat": "#000", "site_freq": 0.025054054054054056, "url": "../websites/express.de.html"}, {"category": "Entertainment", "frequency": 0.0005430399202144299, "site": "match.com", "site_cat": "#B8B8B8", "site_freq": 0.022892630703669058, "url": "../websites/match.com.html"}, {"category": "Reference", "frequency": 0.0005205416715335823, "site": "duden.de", "site_cat": "#E0EEEE", "site_freq": 0.015142821280639781, "url": "../websites/duden.de.html"}, {"category": "Entertainment", "frequency": 0.0005183843052217203, "site": "pcgameshardware.de", "site_cat": "#B8B8B8", "site_freq": 0.03120709488292701, "url": "../websites/pcgameshardware.de.html"}, {"category": "News and Portals", "frequency": 0.0005085220592246363, "site": "20min.ch", "site_cat": "#000", "site_freq": 0.012745643307378568, "url": "../websites/20min.ch.html"}, {"category": "News and Portals", "frequency": 0.0005075974736624098, "site": "noz.de", "site_cat": "#000", "site_freq": 0.09822866344605476, "url": "../websites/noz.de.html"}, {"category": "Business", "frequency": 0.0005008171795394147, "site": "taleo.net", "site_cat": "blue", "site_freq": 0.010860702303137239, "url": "../websites/taleo.net.html"}, {"category": "News and Portals", "frequency": 0.0004952696661660549, "site": "wetter.de", "site_cat": "#000", "site_freq": 0.02849796063131761, "url": "../websites/wetter.de.html"}, {"category": "News and Portals", "frequency": 0.0004934204950416017, "site": "handelsblatt.com", "site_cat": "#000", "site_freq": 0.02406975870104488, "url": "../websites/handelsblatt.com.html"}, {"category": "Reference", "frequency": 0.0004918795191045574, "site": "kochbar.de", "site_cat": "#E0EEEE", "site_freq": 0.12848172597005314, "url": "../websites/kochbar.de.html"}, {"category": "Reference", "frequency": 0.0004918795191045574, "site": "meinestadt.de", "site_cat": "#E0EEEE", "site_freq": 0.024719275149074574, "url": "../websites/meinestadt.de.html"}, {"category": "Entertainment", "frequency": 0.00047338780786002516, "site": "tvp.pl", "site_cat": "#B8B8B8", "site_freq": 0.034534703329810915, "url": "../websites/tvp.pl.html"}, {"category": "Recreation", "frequency": 0.00047215502711038965, "site": "aa.com", "site_cat": "#B9D3EE", "site_freq": 0.01185180600790636, "url": "../websites/aa.com.html"}, {"category": "News and Portals", "frequency": 0.0004552042918029018, "site": "arcor.de", "site_cat": "#000", "site_freq": 0.04445715317701592, "url": "../websites/arcor.de.html"}, {"category": "News and Portals", "frequency": 0.00045273873030363083, "site": "abendblatt.de", "site_cat": "#000", "site_freq": 0.06735133648159186, "url": "../websites/abendblatt.de.html"}, {"category": "Reference", "frequency": 0.0004465748265554534, "site": "netzwelt.de", "site_cat": "#E0EEEE", "site_freq": 0.02670229429650788, "url": "../websites/netzwelt.de.html"}, {"category": "News and Portals", "frequency": 0.00044595843618063565, "site": "rp-online.de", "site_cat": "#000", "site_freq": 0.041477956773490796, "url": "../websites/rp-online.de.html"}, {"category": "Reference", "frequency": 0.0004370207757457784, "site": "gutefrage.net", "site_cat": "#E0EEEE", "site_freq": 0.012825267042319764, "url": "../websites/gutefrage.net.html"}, {"category": "News and Portals", "frequency": 0.00040928320887898006, "site": "tagesspiegel.de", "site_cat": "#000", "site_freq": 0.013140968552712304, "url": "../websites/tagesspiegel.de.html"}, {"category": "News and Portals", "frequency": 0.00040712584256711795, "site": "brigitte.de", "site_cat": "#000", "site_freq": 0.0406549102883698, "url": "../websites/brigitte.de.html"}, {"category": "Entertainment", "frequency": 0.0003630539307676495, "site": "vox.de", "site_cat": "#B8B8B8", "site_freq": 0.17194570135746606, "url": "../websites/vox.de.html"}, {"category": "Reference", "frequency": 0.00036182115001801403, "site": "essen-und-trinken.de", "site_cat": "#E0EEEE", "site_freq": 0.0640200676191515, "url": "../websites/essen-und-trinken.de.html"}, {"category": "Reference", "frequency": 0.00034918514733425033, "site": "woxikon.de", "site_cat": "#E0EEEE", "site_freq": 0.02803275849271346, "url": "../websites/woxikon.de.html"}, {"category": "News and Portals", "frequency": 0.0003473359762097971, "site": "giga.de", "site_cat": "#000", "site_freq": 0.021589624719832952, "url": "../websites/giga.de.html"}, {"category": "Entertainment", "frequency": 0.0003346999735260334, "site": "wize.life", "site_cat": "#B8B8B8", "site_freq": 0.039897134459955914, "url": "../websites/wize.life.html"}, {"category": "Business", "frequency": 0.00033069343608971806, "site": "adidas.com", "site_cat": "blue", "site_freq": 0.033645856197673324, "url": "../websites/adidas.com.html"}, {"category": "News and Portals", "frequency": 0.0003273032890282205, "site": "connect.de", "site_cat": "#000", "site_freq": 0.08150422102839601, "url": "../websites/connect.de.html"}, {"category": "Business", "frequency": 0.00032206397084226973, "site": "adidas.de", "site_cat": "blue", "site_freq": 0.08420628525382756, "url": "../websites/adidas.de.html"}, {"category": "News and Portals", "frequency": 0.0003205229949052254, "site": "merkur.de", "site_cat": "#000", "site_freq": 0.01759312514801908, "url": "../websites/merkur.de.html"}, {"category": "Business", "frequency": 0.00031744104303113666, "site": "sainsburys.co.uk", "site_cat": "blue", "site_freq": 0.016167006749332916, "url": "../websites/sainsburys.co.uk.html"}]')</script>
+    </div>
+
+</div>
+                
+            </div>
+        </div>
+    </section>
+</div>
+
+
+
+
+    
+
+    
+    <div class="breadcrumb-bar" style="border-bottom: solid 1px #333;">
+    
+        <div class="container">
+                <ul class="breadcrumb">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/trackers.html">Trackers</a></li>
+                    
+                        <li>Atlas</li>
+                    
+                </ul>
+        </div>
+    </div>
+    
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-3 col-xs-12 menu">
+        <ul>
+          <li>
+            <i class="fa fa fa-github"></i>
+            <a target="_blank" rel="noreferrer" href="https://github.com/cliqz-oss/whotracks.me">
+              Get the data
+            </a>
+          </li>
+          <li>
+            <i class="fa fa fa-twitter"></i>
+            <a target="_blank" rel="noreferrer" href="https://twitter.com/WhoTracks_me">
+              @WhoTracks_me
+            </a>
+          </li>
+          <li>
+            <i class="fa fa fa-rss"></i>
+            <a target="_blank" type="application/rss+xml" href="/blog/feed.xml">
+              RSS
+            </a>
+          </li>
+
+          <li>
+            <i class="fa fa fa-balance-scale"></i>
+            <a href="/privacy-policy.html">
+              Privacy Policy
+            </a>
+          </li>
+
+        </ul>
+      </div>
+
+
+      <div class="col-md-3 col-sm-3 col-xs-12 menu">
+        <ul class="margin-left">
+          <li>
+            <a target="_blank" href="https://cliqz.com/en/about">
+              About
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://cliqz.com/en/download">
+              Cliqz browser
+            </a>
+          </li>
+
+          <li>
+            <a target="_blank" href="https://www.ghostery.com/en/products/">
+              Ghostery add-on
+            </a>
+          </li>
+
+        </ul>
+      </div>
+      <div class="col-md-6 col-sm-6 col-xs-12 logos">
+        <a href="https://cliqz.com/en/" target="_blank">
+          <span class="cliqz-logo"></span>
+        </a>
+        <a href="https://www.ghostery.com/" target="_blank">
+          <span class="ghostery-logo"></span>
+        </a>
+
+        <div class="copyright">
+          &copy; Cliqz - All rights reserved.
+        </div>
+        <div>Last updated on 15.03.2019</div>
+      </div>
+
+
+
+
+    </div>
+  </div>
+
+  <!-- Local javascript modules -->
+  <script src="../static/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../static/js/search.js"></script>
+
+
+</footer>
+<!-- END OF FOOTER -->
